@@ -1,0 +1,109 @@
+.body
+{
+    width: 0%;
+    line-height: inherit;
+}
+.tittlecontainer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading
+{
+    margin-right:300px;
+}
+.moredetail
+{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.Learnmore
+{
+    background-image:url(/logo.png);
+    background-color: darkred;
+    width: 1300px;
+    height:500px ;
+    background-position:center ;
+    background-repeat: no-repeat;
+    padding-left: 1 rem;
+    padding-right: 1 rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    font-size: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:200 ;
+}
+.About
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(222, 173, 173);
+}
+.Details
+{
+    text-align: center;
+    font-size: 150%;
+}
+.Goals
+{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    
+}
+.mission
+{
+    text-align: center; 
+    background-color: rgb(75, 23,23);  
+}
+.our
+{font-size: x-large;
+
+}
+.family
+{
+    font-size: large;
+}
+.vision
+{
+    text-align: center; 
+    background-color: rgb(75, 23, 23);  
+}
+.head
+{
+    font-size: x-large;
+}
+.description
+{
+    font-size: large;
+}
+.offer
+{
+    text-align: center;
+    font-size: x-large;
+    
+}
+.Descriptionofwhatweoffer
+{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    width: 1300px;
+    gap:2px;
+
+}
+.beyond
+{
+     color: rgb(119, 79, 79);
+}
+.beyondparagraph
+{
+ text-align: left;
+ color: black;
+}
+.beyond food
+{
+    border:40px solid black;
+}
