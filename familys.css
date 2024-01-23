@@ -21,9 +21,10 @@
 }
 .Learnmore
 {
-    background-image:url(/logo.png);
-    background-color: darkred;
-    width: 1300px;
+    background-image:url(/logo.png) ;
+    background-size: cover;
+    background-color:rgb(80, 43, 43);
+    width: auto;
     height:500px ;
     background-position:center ;
     background-repeat: no-repeat;
@@ -32,15 +33,23 @@
     padding-top: 6rem;
     padding-bottom: 6rem;
     text-align: center;
-    font-size: 300%;
+    font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:200 ;
+    color: white;
+    filter: brightness(0.9);
 }
+
+
 .About
 {
     display: flex;
     justify-content: space-between;
     background-color:rgb(222, 173, 173);
+    width: auto;
+    height:500px ;
+    color: white;
+
 }
 .Details
 {
@@ -51,13 +60,17 @@
 {
     display:flex;
     justify-content: space-between;
-    padding-top: 40px;
-    
+    padding-left: 100px ;background-color: black;
+    padding-right: 100px;
+    margin-top: 40px;
+
 }
 .mission
 {
     text-align: center; 
-    background-color: rgb(75, 23,23);  
+    background-color: rgb(75, 23,23); 
+    color: white; 
+    padding-top: 50px;
 }
 .our
 {font-size: x-large;
@@ -70,7 +83,9 @@
 .vision
 {
     text-align: center; 
-    background-color: rgb(75, 23, 23);  
+    background-color: rgb(75, 23, 23); 
+    color: white; 
+    padding-top: 50px;
 }
 .head
 {
@@ -88,22 +103,462 @@
 }
 .Descriptionofwhatweoffer
 {
+    width: 1300px;
+}
+.image
+{
     display: grid;
     grid-template-columns:repeat(5,1fr);
-    width: 1300px;
-    gap:2px;
+    width:700px ;
+    padding-left: 50px;
 
+    gap: 20px;
 }
 .beyond
 {
-     color: rgb(119, 79, 79);
+   color: rgb(119, 79, 79);
 }
 .beyondparagraph
 {
- text-align: left;
+ text-align:justify;
  color: black;
 }
-.beyond food
+.creative
 {
-    border:40px solid black;
+    color: rgb(119, 79, 79);   
 }
+.Raising
+{
+    color: rgb(119, 79, 79);   
+}
+.Just
+{
+    color: rgb(119, 79, 79);   
+}
+.As
+{
+    color: rgb(119, 79, 79);   
+}
+.joinUs
+{
+    width: auto;
+    height:500px ;
+}
+.joinUs
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 70px;
+}
+.textjoinus
+{
+    text-align: center;
+    font-size:x-large ;
+    font-weight: 400;
+    line-height: 25px;
+}
+.Joincontainer
+{
+    background-color:rgb(49, 15, 15) ;
+    height: 350px;
+}
+.Movement
+{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    padding-top: 25px;
+}
+.joinOurMovement
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+
+  
+}
+.Quotes
+{
+    display: flex;
+     padding-left: 400px;
+     padding-top: 30px;
+     background-color: rgb(222, 173, 173);
+     padding-bottom: 20px;
+}
+.Qtext
+{
+    padding-top: 100px;
+    font-size: x-large;
+    font-weight: 500px;
+    color: white;
+    padding-left: 20px;
+    
+}
+.HelpUs
+{
+    text-align: center;
+}
+.OurSponsors
+{
+    text-align: center;
+}
+.organization
+{
+    margin-top: 100px;
+    text-align: center;
+
+}
+.ContactUs
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.65) 
+    url(https://img.freepik.com/free-photo/beggars-sat-wrapped-cloths-eating-noodles_1150-22925.jpg?w=740&t=st=1702578986~exp=1702579586~hmac=278ba19ed491a2470636fcacfd3c22a4a0662cbc64a36125d0496fc947678e13);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px;
+}
+.form
+{
+    padding-left: 400px;
+    padding-top: 50px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    background-color: gainsboro
+}
+  
+  input[type=text], input[type=email], textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  input[type=submit] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color:rgb(112, 44, 44);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+  }
+  .contact
+  {
+    background-color:rgb(112, 44, 44) ;
+    height: 300px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+  }
+  .chat-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+  }
+
+  .chat-icon:hover {
+    transform: scale(01.);
+    opacity: 0.8;
+
+  }
+
+  @media screen and (max-width:768px) {
+
+    .body
+{
+    width: 100%;
+    line-height: inherit;
+}
+
+
+.tittlecontainer
+{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+.heading
+{
+    margin-right:300px;
+}
+.moredetail{
+    display: none;
+    
+}
+.Learnmore
+{
+    background-image:url(/logo.png) ;
+    background-size: cover;
+    background-color:rgb(80, 43, 43);
+    width: auto;
+    height:500px ;
+    background-position:center ;
+    background-repeat: no-repeat;
+    padding-left: 1 rem;
+    padding-right: 1 rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:200 ;
+    color: white;
+    filter: brightness(0.9);
+}
+
+
+.About
+{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(222, 173, 173);
+    width: auto;
+    height:500px ;
+    color: white;
+
+}
+.Details
+{
+    text-align: center;
+    font-size: 150%;
+}
+.Goals
+{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 100px ;background-color: black;
+    padding-right: 100px;
+    margin-top: 40px;
+
+}
+.mission
+{
+    text-align: center; 
+    background-color: rgb(75, 23,23); 
+    color: white; 
+    padding-top: 50px;
+}
+.our
+{font-size: x-large;
+
+}
+.family
+{
+    font-size: large;
+}
+.vision
+{
+    text-align: center; 
+    background-color: rgb(75, 23, 23); 
+    color: white; 
+    padding-top: 50px;
+}
+.head
+{
+    font-size: x-large;
+}
+.description
+{
+    font-size: large;
+}
+.offer
+{
+    text-align: center;
+    font-size: x-large;
+    
+}
+.Descriptionofwhatweoffer
+{
+    width: 1300px;
+}
+.image
+{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    width:700px ;
+    padding-left: 50px;
+
+    gap: 20px;
+}
+.beyond
+{
+   color: rgb(119, 79, 79);
+}
+.beyondparagraph
+{
+ text-align:justify;
+ color: black;
+}
+.creative
+{
+    color: rgb(119, 79, 79);   
+}
+.Raising
+{
+    color: rgb(119, 79, 79);   
+}
+.Just
+{
+    color: rgb(119, 79, 79);   
+}
+.As
+{
+    color: rgb(119, 79, 79);   
+}
+.joinUs
+{
+    width: auto;
+    height:500px ;
+}
+.joinUs
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 70px;
+}
+.textjoinus
+{
+    text-align: center;
+    font-size:x-large ;
+    font-weight: 400;
+    line-height: 25px;
+}
+.Joincontainer
+{
+    background-color:rgb(49, 15, 15) ;
+    height: 350px;
+}
+.Movement
+{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    padding-top: 25px;
+}
+.joinOurMovement
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+
+  
+}
+.Quotes
+{
+    display: flex;
+     padding-left: 400px;
+     padding-top: 30px;
+     background-color: rgb(222, 173, 173);
+     padding-bottom: 20px;
+}
+.Qtext
+{
+    padding-top: 100px;
+    font-size: x-large;
+    font-weight: 500px;
+    color: white;
+    padding-left: 20px;
+    
+}
+.HelpUs
+{
+    text-align: center;
+}
+.OurSponsors
+{
+    text-align: center;
+}
+.organization
+{
+    margin-top: 100px;
+    text-align: center;
+
+}
+.ContactUs
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.65) 
+    url(https://img.freepik.com/free-photo/beggars-sat-wrapped-cloths-eating-noodles_1150-22925.jpg?w=740&t=st=1702578986~exp=1702579586~hmac=278ba19ed491a2470636fcacfd3c22a4a0662cbc64a36125d0496fc947678e13);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1px;
+}
+.form
+{
+    padding-left: 400px;
+    padding-top: 50px;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    background-color: gainsboro
+}
+  
+  input[type=text], input[type=email], textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  input[type=submit] {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color:rgb(112, 44, 44);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+  }
+  .contact
+  {
+    background-color:rgb(112, 44, 44) ;
+    height: 300px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+  }
+  .chat-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+  }
+
+  .chat-icon:hover {
+    transform: scale(01.);
+    opacity: 0.8;
+
+  }
+  }
+  
